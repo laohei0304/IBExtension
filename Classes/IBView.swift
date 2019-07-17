@@ -9,7 +9,7 @@ import Foundation
 import UIKit
 
 @IBDesignable
-class DBView:UIView {
+class IBView:UIView {
     @IBInspectable var cornerRadius: CGFloat = 0 {
         didSet {
             layer.cornerRadius = cornerRadius
